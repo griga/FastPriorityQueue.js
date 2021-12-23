@@ -299,4 +299,4 @@ FastPriorityQueue.prototype.kSmallest = function(k) {
   return smallest;
 }
 
-module.exports = FastPriorityQueue;
+module.exports.FastPriorityQueue = FastPriorityQueue;

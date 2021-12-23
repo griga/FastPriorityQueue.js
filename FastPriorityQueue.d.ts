@@ -1,4 +1,4 @@
-declare class FastPriorityQueue<T> {
+export declare class FastPriorityQueue<T> {
   /** The provided comparator function should take a, b and return *true* when a < b. */
   constructor(comparator?: (a: T, b: T) => boolean);
   /** Add an element into the queue. Runs in O(log n) time. */
@@ -33,5 +33,3 @@ declare class FastPriorityQueue<T> {
   /** return the k 'smallest' elements of the queue */
   kSmallest: (k: number) => T[];
 }
-
-export = FastPriorityQueue;
